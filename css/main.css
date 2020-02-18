@@ -44,6 +44,47 @@ nav {
 .menu li a.contacts {
 	margin-right: 100px;	
 }
+.wrapper {
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+}
+.intro {
+	margin-top: 25px;
+	display: flex;
+	justify-content: flex-end;
+}
+.intro-img {
+	background-image: url(../img/room.jpeg);
+	width: 965px;
+	height: 640px;
+}
+.intro .intro-text {
+	position: relative;
+	font-size: 62px;
+	right: -10px;
+	top: 110px;
+}
+.intro-contacts {
+	background-color: #ffcc01;
+	max-width: 590px;
+	position: absolute;
+	/*right: 170px;*/
+	top: 634px;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 50px;
+}
+.intro-contacts i {
+	color: #fff;
+	margin-right: 10px;
+}
+.intro-contacts p {
+	font-size: 18px;
+	margin-right: 60px;
+}
+
+
 @media screen and (max-width: 765px) {
 	.toggle {
 		clear: both;
@@ -89,10 +130,34 @@ nav {
 		align-content: center;
 	}
 	.menu li a.logo {
-	font-size: 21px;
-	margin-right: 0px;	
-}
-.menu li a.contacts {
-	margin-right: 0px;	
-}
-}
+		font-size: 21px;
+		margin-right: 0px;	
+	}
+	.menu li a.contacts {
+		margin-right: 0px;	
+	}
+	.intro {
+		margin-top: 0;
+		display: block;
+		max-width: 100%
+	}
+	.intro-img {
+		background-position: bottom 50px right 170px;
+	}
+	.intro .intro-text {
+		position: relative;
+		font-size: 35px;
+		right: -10px;
+		top: 95px;
+	}
+	.intro .intro-contacts {
+		right: 0;
+		top: -56px;
+		padding: 20px 10px;
+		position: relative;
+	}
+	.intro-contacts p {
+		font-size: 14px;
+		margin-right: 0;
+
+	}
