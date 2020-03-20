@@ -255,6 +255,36 @@ steps-text {
 .stepblock .stepinfolast:hover {
 	border-bottom: 3px solid #fff;
 }
+.serv-container {
+	display: flex;
+	margin-top: 70px;
+}
+.services img {
+	width: 100%;
+	height: auto;
+}
+.serv-img-container {
+	width: 58%;
+}
+.serv-text {
+	width: 42%;
+	margin-left: 3%;
+}
+.serv-text p{
+	margin-bottom: 60px;
+}
+.services h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.services p {
+	font-size: 13px;
+	line-height: 30px;
+}
+.services h4 {
+	font-size: 25px;
+	margin-bottom: 25px;
+}
 
 
 
@@ -386,5 +416,20 @@ steps-text {
 		margin-left: 5%;
 		margin-bottom: 15px;
 	}
+.serv-container {
+	margin-top: 20px;
+	flex-direction: column;
+}
+.serv-img-container {
+	width: 100%;
+}
+.serv-text {
+	width: 100%;
+}
+
+
+
+
+
 
 }
